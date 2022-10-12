@@ -1,0 +1,134 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Assets/SPRITES/HEROS/spritesheets/HEROS8bit_Adventurer Attack R.png" type="Texture" id=1]
+[ext_resource path="res://Assets/SPRITES/ENEMIES/spritesheets/ENEMIES8bit_Sorcerer Walk D.png" type="Texture" id=2]
+[ext_resource path="res://Assets/TILESET/FightScene.png" type="Texture" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.0431373, 0.733333, 0.0352941, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.917647, 0.0431373, 0.0431373, 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0, 0, 0, 0.819608 )
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[node name="BattleScene" type="Node2D"]
+
+[node name="FightScene" type="Sprite" parent="."]
+position = Vector2( 512, 296 )
+scale = Vector2( 1.07143, 1.90127 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="EnemyContainer" type="VBoxContainer" parent="."]
+margin_left = 552.0
+margin_top = 296.0
+margin_right = 712.0
+margin_bottom = 448.0
+alignment = 2
+
+[node name="Enemy" type="Sprite" parent="EnemyContainer"]
+position = Vector2( -552.286, -287.605 )
+
+[node name="EnemyHealth" type="ProgressBar" parent="EnemyContainer/Enemy"]
+show_behind_parent = true
+margin_left = 544.0
+margin_top = 424.0
+margin_right = 712.0
+margin_bottom = 440.0
+custom_styles/fg = SubResource( 1 )
+custom_styles/bg = SubResource( 2 )
+max_value = 50.0
+step = 1.0
+value = 33.0
+percent_visible = false
+
+[node name="Label" type="Label" parent="EnemyContainer/Enemy/EnemyHealth"]
+anchor_right = 0.952
+anchor_bottom = 0.5
+margin_left = 0.285706
+margin_top = -0.394897
+margin_right = 0.349701
+margin_bottom = 5.6051
+text = "HP: 33/50"
+align = 1
+valign = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="EnemyContainer/Enemy/EnemyHealth/Label"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Enemies8BitSorcererWalkD" type="Sprite" parent="EnemyContainer"]
+position = Vector2( 80, 56 )
+scale = Vector2( 5.5, 7.75 )
+texture = ExtResource( 2 )
+hframes = 8
+frame = 3
+
+[node name="ActionPannel" type="Panel" parent="."]
+margin_left = 8.0
+margin_top = 456.0
+margin_right = 280.0
+margin_bottom = 584.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="Label" type="Label" parent="ActionPannel"]
+margin_left = 40.0
+margin_top = 24.0
+margin_right = 67.0
+margin_bottom = 38.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Test"
+align = 1
+valign = 1
+
+[node name="Player Dat" type="HBoxContainer" parent="ActionPannel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -8.0
+
+[node name="Player" type="VBoxContainer" parent="."]
+margin_left = 304.0
+margin_top = 296.0
+margin_right = 464.0
+margin_bottom = 448.0
+alignment = 2
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="User" type="Sprite" parent="Player"]
+position = Vector2( -296, -304 )
+
+[node name="Heros8BitAdventurerAttackR" type="Sprite" parent="Player/User"]
+position = Vector2( 376, 368 )
+scale = Vector2( 7.36111, 8 )
+texture = ExtResource( 1 )
+hframes = 7
+
+[node name="EnemyHealth" type="ProgressBar" parent="Player/User"]
+show_behind_parent = true
+margin_left = 296.0
+margin_top = 440.0
+margin_right = 456.0
+margin_bottom = 456.0
+custom_styles/fg = SubResource( 1 )
+custom_styles/bg = SubResource( 2 )
+max_value = 50.0
+step = 1.0
+value = 45.0
+percent_visible = false
+
+[node name="Label" type="Label" parent="Player/User/EnemyHealth"]
+margin_right = 160.0
+margin_bottom = 14.0
+text = "HP: 45/50"
+align = 1
+valign = 1
