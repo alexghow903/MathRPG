@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6YQrShK5M7LPTaA/37h3IucQmIYdcbnp1f0HPCHSe+TxGNmHTRFLm2m+2FSN0MbKfaxmgcA4lXjKY5VnbBy0UQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexa\\Dropbox\\mathrpg\\Mathrpg.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.2\\microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
