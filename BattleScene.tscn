@@ -27,6 +27,7 @@ margin_left = -0.110046
 margin_top = 0.0145736
 margin_right = -0.106064
 margin_bottom = -1.04843
+text = "Fight"
 
 [node name="Run" type="Button" parent="FightScene/ButtonControl"]
 anchor_left = 0.075
@@ -37,3 +38,4 @@ margin_left = 0.0499992
 margin_top = -3.864
 margin_right = 0.359985
 margin_bottom = 3.539
+text = "Run"
