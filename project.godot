@@ -38,8 +38,13 @@ _global_script_class_icons={
 
 [application]
 
+<<<<<<< Updated upstream
 config/name="Mathrpg"
 run/main_scene="res://BattleScene/BattleScene.tscn"
+=======
+config/name="Math Rpg"
+run/main_scene="res://BattleScene.tscn"
+>>>>>>> Stashed changes
 config/icon="res://icon.png"
 
 [autoload]
