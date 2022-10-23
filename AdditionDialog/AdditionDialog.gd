@@ -1,7 +1,7 @@
-extends WindowDialo
+extends WindowDialog
 
 # load random number generator object
-var rng = RandomNumberGenerator.new(
+var rng = RandomNumberGenerator.new()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -11,7 +11,7 @@ func _ready():
 	var format_equation = "%s + %s"
 	var equation = format_equation % [number_one, number_two]
 	
-	$EquationLabel.set_text(equation)
+	$MarginContainer/VBoxContainer/EquationLabel.set_text(equation)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
