@@ -16,3 +16,12 @@ C:\Users\alexa\Dropbox\mathrpg\.mono\temp\obj\Debug\Mathrpg.AssemblyInfo.cs
 C:\Users\alexa\Dropbox\mathrpg\.mono\temp\obj\Debug\Mathrpg.csproj.CoreCompileInputs.cache
 C:\Users\alexa\Dropbox\mathrpg\.mono\temp\obj\Debug\Mathrpg.dll
 C:\Users\alexa\Dropbox\mathrpg\.mono\temp\obj\Debug\Mathrpg.pdb
+C:\Users\spenc\GitStorage\MathRPG\.mono\temp\bin\Debug\Mathrpg.dll
+C:\Users\spenc\GitStorage\MathRPG\.mono\temp\bin\Debug\Mathrpg.pdb
+C:\Users\spenc\GitStorage\MathRPG\.mono\temp\obj\Debug\Mathrpg.csproj.AssemblyReference.cache
+C:\Users\spenc\GitStorage\MathRPG\.mono\temp\obj\Debug\Mathrpg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spenc\GitStorage\MathRPG\.mono\temp\obj\Debug\Mathrpg.AssemblyInfoInputs.cache
+C:\Users\spenc\GitStorage\MathRPG\.mono\temp\obj\Debug\Mathrpg.AssemblyInfo.cs
+C:\Users\spenc\GitStorage\MathRPG\.mono\temp\obj\Debug\Mathrpg.csproj.CoreCompileInputs.cache
+C:\Users\spenc\GitStorage\MathRPG\.mono\temp\obj\Debug\Mathrpg.dll
+C:\Users\spenc\GitStorage\MathRPG\.mono\temp\obj\Debug\Mathrpg.pdb

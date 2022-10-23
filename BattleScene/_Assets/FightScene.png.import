@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/FightScene.png-ebe5faa13608af0e34056b7b6e55b047.stex"
+path="res://.import/FightScene.png-92980e83b4f3c9fab1693f3369ad18ac.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/TILESET/FightScene.png"
-dest_files=[ "res://.import/FightScene.png-ebe5faa13608af0e34056b7b6e55b047.stex" ]
+source_file="res://BattleScene/_Assets/FightScene.png"
+dest_files=[ "res://.import/FightScene.png-92980e83b4f3c9fab1693f3369ad18ac.stex" ]
 
 [params]
 
