@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/enemies_hearts.png-77cc86dab4308f49a24a9d0d3a7ac04d.stex"
+path="res://.import/item8BIT_heart.png-96e343074a4ab24afbc9ff21f7406bb0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/SPRITES/enemies_hearts.png"
-dest_files=[ "res://.import/enemies_hearts.png-77cc86dab4308f49a24a9d0d3a7ac04d.stex" ]
+source_file="res://Assets/SPRITES/GUI/item8BIT_heart.png"
+dest_files=[ "res://.import/item8BIT_heart.png-96e343074a4ab24afbc9ff21f7406bb0.stex" ]
 
 [params]
 
