@@ -19,4 +19,14 @@ func _ready():
 func _button_pressed():
 	var enemyBar = get_node('/root/BattleScene/HealthBars/Health Bars/EnemyBar') 
 	var playerBar = get_node('/root/BattleScene/HealthBars/Health Bars/PlayerBar') 
-	enemyBar.value -= 10
+	var additionDialog = get_node('/root/BattleScene/FightScene/ButtonControl/Fight/AdditionDialog')
+	var expected_value = additionDialog.get_expected_value()
+	var answerEdit = get_node('../AnswerInputContainer/AnswerEdit')
+	var submitted_value = answerEdit.text
+	if expected_value == int(submitted_value):
+		enemyBar.value -= 5
+	else:
+		playerBar.value -=5
+	additionDialog.visible=false
+	additionDialog.new_question()
+	answerEdit.text = ""
