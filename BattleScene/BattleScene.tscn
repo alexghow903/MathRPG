@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://BattleScene/Fight.gd" type="Script" id=1]
 [ext_resource path="res://AdditionDialog/AdditionDialog.tscn" type="PackedScene" id=2]
 [ext_resource path="res://BattleScene/_Assets/FightScene.png" type="Texture" id=3]
 [ext_resource path="res://HealthBars.tscn" type="PackedScene" id=4]
+[ext_resource path="res://bs_sprites/Node2D.tscn" type="PackedScene" id=5]
 
 [node name="BattleScene" type="Node2D"]
 
@@ -51,3 +52,6 @@ text = "Run"
 margin_top = 408.0
 margin_right = 1190.0
 margin_bottom = 489.0
+
+[node name="Node2D" parent="." instance=ExtResource( 5 )]
+position = Vector2( 102, 92 )
