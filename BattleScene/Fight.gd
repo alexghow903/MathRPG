@@ -1,12 +1,5 @@
 extends Button
 
-func _ready():
-	var button = Button.new()
-	button.text = "Fight"
-	button.connect("pressed", self, "_button_pressed")
-	add_child(button)
-
-func _button_pressed():
-	print("Hello world!")
+func _pressed():
 	$AdditionDialog.visible=true
 	$AdditionDialog.popup_centered()
