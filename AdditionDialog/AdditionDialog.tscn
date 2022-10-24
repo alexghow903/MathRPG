@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://AdditionDialog/AdditionDialog.gd" type="Script" id=1]
+[ext_resource path="res://AdditionDialog/AnswerButton.gd" type="Script" id=2]
 
 [node name="AdditionDialog" type="WindowDialog"]
 margin_right = 384.0
@@ -49,3 +50,4 @@ margin_top = 80.0
 margin_right = 364.0
 margin_bottom = 85.0
 text = "OK"
+script = ExtResource( 2 )
