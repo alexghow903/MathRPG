@@ -10,7 +10,6 @@ extends Button
 func _ready():
 	var button = self
 	button.connect("pressed", self, "_button_pressed")
-	add_child(button)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
