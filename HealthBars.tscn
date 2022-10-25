@@ -5,12 +5,12 @@
 [ext_resource path="res://Assets/SPRITES/GUI/enemies_hearts.png" type="Texture" id=3]
 
 [node name="HealthBars" type="MarginContainer"]
-margin_left = 20.0
+margin_left = 10.0
 margin_right = 20.0
 margin_bottom = 40.0
 
 [node name="Health Bars" type="HBoxContainer" parent="."]
-margin_right = 1028.0
+margin_right = 1008.0
 margin_bottom = 60.0
 
 [node name="PlayerBar" type="TextureProgress" parent="Health Bars"]
@@ -23,13 +23,13 @@ texture_progress = ExtResource( 2 )
 
 [node name="Spacer" type="TextureRect" parent="Health Bars"]
 margin_left = 494.0
-margin_right = 534.0
+margin_right = 514.0
 margin_bottom = 60.0
-rect_min_size = Vector2( 40, 0 )
+rect_min_size = Vector2( 20, 0 )
 
 [node name="EnemyBar" type="TextureProgress" parent="Health Bars"]
-margin_left = 538.0
-margin_right = 1028.0
+margin_left = 518.0
+margin_right = 1008.0
 margin_bottom = 60.0
 step = 5.0
 value = 20.0
