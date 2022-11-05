@@ -12,6 +12,12 @@ func _ready():
 func get_expected_value():
 	return expected_value
 
+func get_format_equation():
+	return "%s + %s"
+
+func calculate(number_one,number_two):
+	return number_one + number_two
+
 func new_question():
 	# Randomize rng so it is not the same seed every time
 	rng.randomize()
@@ -21,9 +27,9 @@ func new_question():
 	var number_two = rng.randi_range(1, difficulty_range[difficulty])
 	
 	# Create string with random numbers assigned
-	var format_equation = "%s + %s"
+	var format_equation = get_format_equation()
 	var equation = format_equation % [number_one, number_two]
-	expected_value = number_one+number_two
+	expected_value = calculate(number_one,number_two)
 
 	if difficulty < len(difficulty_range) - 1:
 		difficulty += 1
