@@ -1,5 +1,7 @@
 # Overview
 
+Math RPG is a top-down style RPG game designed to allow students to practice basic math concepts in a fun and interactive way.
+
 # Development Environment
 
 * Godot 3.5.1.stable
