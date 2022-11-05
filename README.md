@@ -7,11 +7,11 @@
 
 # Useful Websites
 
-*
+* [Godot Documentation](https://docs.godotengine.org/en/stable/index.html)
 
 # Future Work
 
-- []
+- [ ] Finish game
 
 # Contributors
 
@@ -19,7 +19,7 @@
 * Ben Davis - Project Manager
 * Ian Mease - Graphic Designer
 * Alex Howard - Quality Assurance and Configuration Manager
-* Cal Quinton - Documentation 
+* Cal Quinton - Documentation Manager
 
 # Credits
 
