@@ -39,7 +39,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Mathrpg"
-run/main_scene="res://BattleScene/BattleScene.tscn"
+run/main_scene="res://battleground.tscn"
 config/icon="res://icon.png"
 <<<<<<<Updatedupstreamconfig/name="Mathrpg"
 
