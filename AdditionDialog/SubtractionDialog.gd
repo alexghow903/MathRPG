@@ -11,7 +11,6 @@ func get_format_equation():
 	return "%s - %s"
 
 func calculate(number_one, number_two):
-	print('this is running')
 	return number_one - number_two
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

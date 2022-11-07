@@ -45,6 +45,12 @@ func _process(delta):
 		
 	elif velocity.y > 0:
 		$AnimatedSprite.animation = "down"
+	
+	for i in get_slide_count():
+		var collision = get_slide_collision(i)
+		# print("Collided with: ", collision.collider.name)
+		if collision.collider.name == "TileMap2":
+			get_tree().change_scene("res://BattleScene/BattleScene.tscn")
 
 
 func _on_Player_body_entered(body):

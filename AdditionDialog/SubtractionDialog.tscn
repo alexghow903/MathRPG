@@ -3,7 +3,6 @@
 [ext_resource path="res://AdditionDialog/SubtractionAnswerButton.gd" type="Script" id=1]
 
 [node name="SubtractionDialog" type="WindowDialog"]
-visible = true
 margin_right = 416.0
 margin_bottom = 128.0
 

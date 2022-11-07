@@ -29,3 +29,11 @@ func _button_pressed():
 	dialog.visible=false
 	dialog.new_question()
 	answerEdit.text = ""
+	var enemyHealth : float = enemyBar.value
+	var playerHealth : float = playerBar.value
+	if enemyHealth <= 0.0:
+		print("you won!")
+		get_tree().change_scene("res://test/Testing.tscn")
+	elif playerHealth <= 0.0:
+		print("you lost!")
+		get_tree().change_scene("res://test/Testing.tscn")
