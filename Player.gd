@@ -46,6 +46,7 @@ func _process(delta):
 	elif velocity.y > 0:
 		$AnimatedSprite.animation = "down"
 	
+	#breaking here maybe
 	for i in get_slide_count():
 		var collision = get_slide_collision(i)
 		# print("Collided with: ", collision.collider.name)
