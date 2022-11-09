@@ -13,6 +13,8 @@ func _ready():
 	dialog = get_node('/root/BattleScene/FightScene/ButtonControl/Fight/AdditionDialog')
 
 
+func get_damage_level():
+	return 5
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
@@ -23,9 +25,9 @@ func _button_pressed():
 	var answerEdit = get_node('../AnswerInputContainer/AnswerEdit')
 	var submitted_value = answerEdit.text
 	if expected_value == int(submitted_value):
-		enemyBar.value -= 5
+		enemyBar.value -= get_damage_level()
 	else:
-		playerBar.value -=5
+		playerBar.value -= get_damage_level()
 	dialog.visible=false
 	dialog.new_question()
 	answerEdit.text = ""

@@ -12,6 +12,9 @@ func _ready():
 	button.connect("pressed", self, "_button_pressed")
 	dialog = get_node('/root/BattleScene/FightScene/ButtonControl/Run/SubtractionDialog')
 
+func get_damage_level():
+	return 10
+
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
