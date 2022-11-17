@@ -32,6 +32,6 @@ margin_left = 518.0
 margin_right = 1008.0
 margin_bottom = 60.0
 step = 5.0
-value = 20.0
+value = 30.0
 texture_under = ExtResource( 1 )
 texture_progress = ExtResource( 3 )

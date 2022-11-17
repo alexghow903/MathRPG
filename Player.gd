@@ -51,7 +51,7 @@ func _process(delta):
 		var collision = get_slide_collision(i)
 		# print("Collided with: ", collision.collider.name)
 		if collision.collider.name == "TileMap2":
-			get_tree().change_scene("res://BattleScene/BattleScene.tscn")
+			get_tree().change_scene("res://BattleScene/Level6.tscn")
 
 
 func _on_Player_body_entered(body):

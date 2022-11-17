@@ -1,0 +1,53 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://AdditionDialog/DivisionAnswerButton.gd" type="Script" id=1]
+[ext_resource path="res://AdditionDialog/DivisionDialog.gd" type="Script" id=2]
+
+[node name="DivisionDialog" type="WindowDialog"]
+margin_right = 384.0
+margin_bottom = 128.0
+window_title = "Solve Addition"
+script = ExtResource( 2 )
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 374.0
+margin_bottom = 118.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+margin_right = 364.0
+margin_bottom = 108.0
+
+[node name="EquationLabel" type="RichTextLabel" parent="MarginContainer/VBoxContainer"]
+margin_right = 364.0
+margin_bottom = 15.0
+bbcode_enabled = true
+bbcode_text = "[center][b]Equation Here[/b][/center]"
+text = "Equation Here"
+fit_content_height = true
+
+[node name="AnswerInputContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer"]
+margin_top = 24.0
+margin_right = 364.0
+margin_bottom = 61.0
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="AnswerLabel" type="Label" parent="MarginContainer/VBoxContainer/AnswerInputContainer"]
+margin_right = 364.0
+margin_bottom = 14.0
+text = "Answer"
+
+[node name="AnswerEdit" type="LineEdit" parent="MarginContainer/VBoxContainer/AnswerInputContainer"]
+margin_top = 18.0
+margin_right = 364.0
+margin_bottom = 42.0
+
+[node name="AnswerButton" type="Button" parent="MarginContainer/VBoxContainer"]
+margin_top = 80.0
+margin_right = 364.0
+margin_bottom = 85.0
+text = "OK"
+script = ExtResource( 1 )

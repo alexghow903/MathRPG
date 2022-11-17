@@ -10,12 +10,8 @@ extends "res://AdditionDialog/AnswerButton.gd"
 func _ready():
 	var button = self
 	button.connect("pressed", self, "_button_pressed")
-	dialog = get_node('/root/BattleScene/FightScene/ButtonControl/Run/SubtractionDialog')
+	dialog = get_node('/root/BattleScene/FightScene/ButtonControl/Multiply/MultiplicationDialog')
 
 func get_damage_level():
-	return 5
+	return 10
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass

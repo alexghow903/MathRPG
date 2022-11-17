@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://BattleScene/Run.gd" type="Script" id=2]
+[ext_resource path="res://AdditionDialog/SubtractionDialog.gd" type="Script" id=3]
+[ext_resource path="res://BattleScene/_Assets/FightScene.png" type="Texture" id=4]
+[ext_resource path="res://AdditionDialog/SubtractionDialog.tscn" type="PackedScene" id=6]
+[ext_resource path="res://HealthBars.tscn" type="PackedScene" id=7]
+[ext_resource path="res://bs_sprites/Node2D.tscn" type="PackedScene" id=8]
+
+[node name="Level2" type="Node2D"]
+
+[node name="FightScene" type="Sprite" parent="."]
+position = Vector2( 512, 296 )
+scale = Vector2( 1.07143, 1.90127 )
+texture = ExtResource( 4 )
+
+[node name="ButtonControl" type="Control" parent="FightScene"]
+margin_left = -461.999
+margin_top = 115.186
+margin_right = -155.999
+margin_bottom = 166.186
+
+[node name="Run" type="Button" parent="FightScene/ButtonControl"]
+anchor_left = 0.075
+anchor_top = 0.664
+anchor_right = 0.44
+anchor_bottom = 0.911
+margin_left = -16.4171
+margin_top = -43.8572
+margin_right = -16.1071
+margin_bottom = -36.4542
+text = "Subtract"
+script = ExtResource( 2 )
+
+[node name="SubtractionDialog" parent="FightScene/ButtonControl/Run" instance=ExtResource( 6 )]
+script = ExtResource( 3 )
+
+[node name="HealthBars" parent="." instance=ExtResource( 7 )]
+margin_top = 408.0
+margin_right = 1190.0
+margin_bottom = 489.0
+
+[node name="Node2D" parent="." instance=ExtResource( 8 )]
+position = Vector2( 102, 92 )
