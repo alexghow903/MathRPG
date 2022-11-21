@@ -4,7 +4,7 @@
 [ext_resource path="res://AdditionDialog/DivisionDialog.tscn" type="PackedScene" id=2]
 [ext_resource path="res://BattleScene/_Assets/FightScene.png" type="Texture" id=4]
 [ext_resource path="res://HealthBars.tscn" type="PackedScene" id=7]
-[ext_resource path="res://bs_sprites/Node2D.tscn" type="PackedScene" id=8]
+[ext_resource path="res://bs_sprites/Level1Fighters.tscn" type="PackedScene" id=8]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.627451, 0.627451, 0.627451, 1 )

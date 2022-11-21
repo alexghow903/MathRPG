@@ -4,7 +4,7 @@
 [ext_resource path="res://BattleScene/_Assets/FightScene.png" type="Texture" id=4]
 [ext_resource path="res://AdditionDialog/AdditionDialog.tscn" type="PackedScene" id=5]
 [ext_resource path="res://HealthBars.tscn" type="PackedScene" id=7]
-[ext_resource path="res://bs_sprites/Node2D.tscn" type="PackedScene" id=8]
+[ext_resource path="res://bs_sprites/Level1Fighters.tscn" type="PackedScene" id=8]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.627451, 0.627451, 0.627451, 1 )
@@ -56,5 +56,5 @@ margin_top = 408.0
 margin_right = 1190.0
 margin_bottom = 489.0
 
-[node name="Node2D" parent="." instance=ExtResource( 8 )]
-position = Vector2( 102, 92 )
+[node name="Level1Fighters" parent="." instance=ExtResource( 8 )]
+position = Vector2( 104, 96 )

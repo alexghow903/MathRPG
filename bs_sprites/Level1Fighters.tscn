@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/SPRITES/HEROS/spritesheets/HEROS8bit_Adventurer Idle R.png" type="Texture" id=2]
+
+[sub_resource type="StreamTexture" id=1]
+load_path = "res://.import/ENEMIES8bit_Blob Idle.png-1528afb366e95229eed72052fe17861c.stex"
+
+[node name="Level1Fighters" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 529.5, 157.5 )
+scale = Vector2( 7.99219, 18.0625 )
+texture = ExtResource( 2 )
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 1046.25, 150 )
+scale = Vector2( 7.59766, 13.6563 )
+texture = SubResource( 1 )
