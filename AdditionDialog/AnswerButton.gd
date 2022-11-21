@@ -10,7 +10,7 @@ var dialog
 func _ready():
 	var button = self
 	button.connect("pressed", self, "_button_pressed")
-	dialog = get_node('/root/BattleScene/FightScene/ButtonControl/Fight/AdditionDialog')
+	dialog = get_node('/root/BattleScene/ButtonControl/Fight/AdditionDialog')
 
 
 func get_damage_level():

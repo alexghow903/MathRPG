@@ -10,7 +10,7 @@ extends "res://AdditionDialog/AnswerButton.gd"
 func _ready():
 	var button = self
 	button.connect("pressed", self, "_button_pressed")
-	dialog = get_node('/root/BattleScene/FightScene/ButtonControl/Run/SubtractionDialog')
+	dialog = get_node('/root/BattleScene/ButtonControl/Run/SubtractionDialog')
 
 func get_damage_level():
 	return 5
