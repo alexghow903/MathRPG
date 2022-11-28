@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PixelPackTOPDOWN1BIT.png-503ae43252bce1a6e0fb9a68b2f33107.stex"
+path="res://.import/PixelPackTOPDOWN1BIT.png-cf85662619b115a41258c851d99d3d74.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tmpbwAssets/1BIT CanariPack TopDown/TILESET/PixelPackTOPDOWN1BIT.png"
-dest_files=[ "res://.import/PixelPackTOPDOWN1BIT.png-503ae43252bce1a6e0fb9a68b2f33107.stex" ]
+source_file="res://bwasset/TILESET/PixelPackTOPDOWN1BIT.png"
+dest_files=[ "res://.import/PixelPackTOPDOWN1BIT.png-cf85662619b115a41258c851d99d3d74.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TX Tileset Stone Ground.png-45d258271fe0aa9bcd6640c37bdd9943.stex"
+path="res://.import/TX Tileset Stone Ground.png-bb6da96335cd52018ed1c37605f7d46c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://grassAssets/Texture/TX Tileset Stone Ground.png"
-dest_files=[ "res://.import/TX Tileset Stone Ground.png-45d258271fe0aa9bcd6640c37bdd9943.stex" ]
+source_file="res://grass1asset/TX Tileset Stone Ground.png"
+dest_files=[ "res://.import/TX Tileset Stone Ground.png-bb6da96335cd52018ed1c37605f7d46c.stex" ]
 
 [params]
 

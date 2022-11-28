@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Death-Sheet.png-17cd4fb9265c9c56201487f5a9f545d8.stex"
+path="res://.import/Death-Sheet.png-04de0cd0edbc2aef8c3a5337b7a6f068.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Heroes/Rogue/Death/Death-Sheet.png"
-dest_files=[ "res://.import/Death-Sheet.png-17cd4fb9265c9c56201487f5a9f545d8.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Heroes/Rogue/Death/Death-Sheet.png"
+dest_files=[ "res://.import/Death-Sheet.png-04de0cd0edbc2aef8c3a5337b7a6f068.stex" ]
 
 [params]
 

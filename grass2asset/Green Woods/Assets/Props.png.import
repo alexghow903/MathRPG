@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Props.png-b00e305871f75b40cda2464bfcd53e44.stex"
+path="res://.import/Props.png-2a08af8e6636a6c01cb539f6e96a2978.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Props.png"
-dest_files=[ "res://.import/Props.png-b00e305871f75b40cda2464bfcd53e44.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Props.png"
+dest_files=[ "res://.import/Props.png-2a08af8e6636a6c01cb539f6e96a2978.stex" ]
 
 [params]
 

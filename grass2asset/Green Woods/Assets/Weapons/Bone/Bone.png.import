@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bone.png-e74e1b55f59708f559807ae6ba9fcdfa.stex"
+path="res://.import/Bone.png-8bc176f1a937aa8d4670d1109e24cc73.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Weapons/Bone/Bone.png"
-dest_files=[ "res://.import/Bone.png-e74e1b55f59708f559807ae6ba9fcdfa.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Weapons/Bone/Bone.png"
+dest_files=[ "res://.import/Bone.png-8bc176f1a937aa8d4670d1109e24cc73.stex" ]
 
 [params]
 

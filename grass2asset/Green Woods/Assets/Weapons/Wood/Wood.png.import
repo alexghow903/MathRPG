@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Wood.png-4db4d848792205c0daa4a8512db6ff9d.stex"
+path="res://.import/Wood.png-2dd3618de54367b9803b828c9ddebc7d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Weapons/Wood/Wood.png"
-dest_files=[ "res://.import/Wood.png-4db4d848792205c0daa4a8512db6ff9d.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Weapons/Wood/Wood.png"
+dest_files=[ "res://.import/Wood.png-2dd3618de54367b9803b828c9ddebc7d.stex" ]
 
 [params]
 

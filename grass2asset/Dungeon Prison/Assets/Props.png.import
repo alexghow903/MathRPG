@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Props.png-8df2f5ed0abd15c36e0226db382e50bf.stex"
+path="res://.import/Props.png-a0b0ab06e5ffe13e7f6011ebae02e43c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Dungeon Prison/Assets/Props.png"
-dest_files=[ "res://.import/Props.png-8df2f5ed0abd15c36e0226db382e50bf.stex" ]
+source_file="res://grass2asset/Dungeon Prison/Assets/Props.png"
+dest_files=[ "res://.import/Props.png-a0b0ab06e5ffe13e7f6011ebae02e43c.stex" ]
 
 [params]
 

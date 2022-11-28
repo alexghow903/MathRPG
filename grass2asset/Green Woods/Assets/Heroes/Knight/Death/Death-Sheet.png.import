@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Death-Sheet.png-e9bebbd776ff1579e028177373841b2e.stex"
+path="res://.import/Death-Sheet.png-78f121022f7b2a4d2111350592aa990b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Heroes/Knight/Death/Death-Sheet.png"
-dest_files=[ "res://.import/Death-Sheet.png-e9bebbd776ff1579e028177373841b2e.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Heroes/Knight/Death/Death-Sheet.png"
+dest_files=[ "res://.import/Death-Sheet.png-78f121022f7b2a4d2111350592aa990b.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Idle-Sheet.png-dcc34f448c0d0da9814fd45e7f7e1825.stex"
+path="res://.import/Idle-Sheet.png-ea8e7acd5049a77fac3ab59beb4e1062.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Heroes/Wizzard/Idle/Idle-Sheet.png"
-dest_files=[ "res://.import/Idle-Sheet.png-dcc34f448c0d0da9814fd45e7f7e1825.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Heroes/Wizzard/Idle/Idle-Sheet.png"
+dest_files=[ "res://.import/Idle-Sheet.png-ea8e7acd5049a77fac3ab59beb4e1062.stex" ]
 
 [params]
 

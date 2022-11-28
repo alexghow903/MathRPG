@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mer_8_chars1.png-93b64760df7ca0e6d154fda0bc9cd8e5.stex"
+path="res://.import/mer_8_chars1.png-7cd6f3d35bfe8d21c08721e52b0c9e4d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://oceanassets/RPGMAKER-100/mer_8_chars1.png"
-dest_files=[ "res://.import/mer_8_chars1.png-93b64760df7ca0e6d154fda0bc9cd8e5.stex" ]
+source_file="res://oceanasset/mer_8_chars1.png"
+dest_files=[ "res://.import/mer_8_chars1.png-7cd6f3d35bfe8d21c08721e52b0c9e4d.stex" ]
 
 [params]
 

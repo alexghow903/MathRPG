@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Idle-Sheet.png-480f4f459baa2f2035bc26947facf2de.stex"
+path="res://.import/Idle-Sheet.png-5a918be28af1c8ee50308dc2b7a623cf.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Heroes/Rogue/Idle/Idle-Sheet.png"
-dest_files=[ "res://.import/Idle-Sheet.png-480f4f459baa2f2035bc26947facf2de.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Heroes/Rogue/Idle/Idle-Sheet.png"
+dest_files=[ "res://.import/Idle-Sheet.png-5a918be28af1c8ee50308dc2b7a623cf.stex" ]
 
 [params]
 

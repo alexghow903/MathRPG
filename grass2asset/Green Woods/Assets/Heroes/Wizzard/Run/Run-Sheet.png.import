@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Run-Sheet.png-4ed7e24d7a8b96d492110d2b3bd5b54b.stex"
+path="res://.import/Run-Sheet.png-a81d5e764139d26dc8a80c92eed9b42a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Heroes/Wizzard/Run/Run-Sheet.png"
-dest_files=[ "res://.import/Run-Sheet.png-4ed7e24d7a8b96d492110d2b3bd5b54b.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Heroes/Wizzard/Run/Run-Sheet.png"
+dest_files=[ "res://.import/Run-Sheet.png-a81d5e764139d26dc8a80c92eed9b42a.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tf_B_atlantisB.png-c24677035b382e3502e4bc483582a823.stex"
+path="res://.import/tf_B_atlantisB.png-796830bda37804d18e59d2db8024d5d3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://oceanassets/RPGMAKER-100/tf_B_atlantisB.png"
-dest_files=[ "res://.import/tf_B_atlantisB.png-c24677035b382e3502e4bc483582a823.stex" ]
+source_file="res://oceanasset/tf_B_atlantisB.png"
+dest_files=[ "res://.import/tf_B_atlantisB.png-796830bda37804d18e59d2db8024d5d3.stex" ]
 
 [params]
 

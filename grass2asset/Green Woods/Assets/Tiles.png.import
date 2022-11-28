@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Tiles.png-0f63093036b8b4ac0b56d45efa3d036f.stex"
+path="res://.import/Tiles.png-571e20351bb5794b12d5b63fa7d30b4a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Tiles.png"
-dest_files=[ "res://.import/Tiles.png-0f63093036b8b4ac0b56d45efa3d036f.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Tiles.png"
+dest_files=[ "res://.import/Tiles.png-571e20351bb5794b12d5b63fa7d30b4a.stex" ]
 
 [params]
 

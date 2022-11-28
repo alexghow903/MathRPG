@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Death-Sheet.png-0f5731a9bd0b3a4b6f494c2de484256a.stex"
+path="res://.import/Death-Sheet.png-31d4f1b07652f3b7196b512980d9ca34.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Heroes/Wizzard/Death/Death-Sheet.png"
-dest_files=[ "res://.import/Death-Sheet.png-0f5731a9bd0b3a4b6f494c2de484256a.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Heroes/Wizzard/Death/Death-Sheet.png"
+dest_files=[ "res://.import/Death-Sheet.png-31d4f1b07652f3b7196b512980d9ca34.stex" ]
 
 [params]
 

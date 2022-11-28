@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TX Struct.png-6147f24afa14d1f3d5e723f4da3bb4ec.stex"
+path="res://.import/TX Struct.png-0ffa977e48c4bbf47747a1fcb7aa313c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://grassAssets/Texture/TX Struct.png"
-dest_files=[ "res://.import/TX Struct.png-6147f24afa14d1f3d5e723f4da3bb4ec.stex" ]
+source_file="res://grass1asset/TX Struct.png"
+dest_files=[ "res://.import/TX Struct.png-0ffa977e48c4bbf47747a1fcb7aa313c.stex" ]
 
 [params]
 

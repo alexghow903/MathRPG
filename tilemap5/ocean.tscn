@@ -1,9 +1,10 @@
 [gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://oceanassets/RPGMAKER-100/tf_A2_atlantis.png" type="Texture" id=1]
-[ext_resource path="res://oceanassets/RPGMAKER-100/tf_A5_atlantisA.png" type="Texture" id=2]
-[ext_resource path="res://oceanassets/RPGMAKER-100/char_bubbles.png" type="Texture" id=3]
-[ext_resource path="res://oceanassets/RPGMAKER-100/tf_B_atlantisB.png" type="Texture" id=4]
+[ext_resource path="res://oceanasset/tf_A2_atlantis.png" type="Texture" id=1]
+[ext_resource path="res://oceanasset/tf_A5_atlantisA.png" type="Texture" id=2]
+[ext_resource path="res://oceanasset/char_bubbles.png" type="Texture" id=3]
+[ext_resource path="res://oceanasset/tf_B_atlantisB.png" type="Texture" id=4]
+
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )

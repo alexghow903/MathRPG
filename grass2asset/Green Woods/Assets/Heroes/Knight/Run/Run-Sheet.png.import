@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Run-Sheet.png-8f4027b8d1a598c49d4ce998f3c64f09.stex"
+path="res://.import/Run-Sheet.png-2081a203fd689cf762415849e796e21c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Heroes/Knight/Run/Run-Sheet.png"
-dest_files=[ "res://.import/Run-Sheet.png-8f4027b8d1a598c49d4ce998f3c64f09.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Heroes/Knight/Run/Run-Sheet.png"
+dest_files=[ "res://.import/Run-Sheet.png-2081a203fd689cf762415849e796e21c.stex" ]
 
 [params]
 

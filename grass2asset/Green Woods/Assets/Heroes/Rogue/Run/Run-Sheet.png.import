@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Run-Sheet.png-4fe94c5327c6a4992069a72b8d03acf2.stex"
+path="res://.import/Run-Sheet.png-18f0e6e73af25fc517220dbd767481ea.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Heroes/Rogue/Run/Run-Sheet.png"
-dest_files=[ "res://.import/Run-Sheet.png-4fe94c5327c6a4992069a72b8d03acf2.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Heroes/Rogue/Run/Run-Sheet.png"
+dest_files=[ "res://.import/Run-Sheet.png-18f0e6e73af25fc517220dbd767481ea.stex" ]
 
 [params]
 

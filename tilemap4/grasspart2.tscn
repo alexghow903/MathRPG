@@ -1,9 +1,10 @@
 [gd_scene load_steps=18 format=2]
 
-[ext_resource path="res://castleAssets/Sprites/14-TileSets/Terrain (32x32).png" type="Texture" id=1]
-[ext_resource path="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Dungeon Prison/Assets/Props.png" type="Texture" id=2]
-[ext_resource path="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Dungeon Prison/Assets/Tiles.png" type="Texture" id=3]
-[ext_resource path="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Tiles.png" type="Texture" id=4]
+[ext_resource path="res://castlesassets/14-TileSets/Terrain (32x32).png" type="Texture" id=1]
+[ext_resource path="res://grass2asset/Dungeon Prison/Assets/Props.png" type="Texture" id=2]
+[ext_resource path="res://grass2asset/Dungeon Prison/Assets/Tiles.png" type="Texture" id=3]
+[ext_resource path="res://grass2asset/Green Woods/Assets/Tiles.png" type="Texture" id=4]
+
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )

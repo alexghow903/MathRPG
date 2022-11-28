@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Hands.png-c90c92dcc4f033c00d1c72bd08dded9d.stex"
+path="res://.import/Hands.png-24f0f005bdb6bd154f4ad8df1b237791.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gras2assets/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/Weapons/Hands/Hands.png"
-dest_files=[ "res://.import/Hands.png-c90c92dcc4f033c00d1c72bd08dded9d.stex" ]
+source_file="res://grass2asset/Green Woods/Assets/Weapons/Hands/Hands.png"
+dest_files=[ "res://.import/Hands.png-24f0f005bdb6bd154f4ad8df1b237791.stex" ]
 
 [params]
 
