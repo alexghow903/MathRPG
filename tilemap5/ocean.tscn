@@ -1,10 +1,10 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://oceanasset/tf_A2_atlantis.png" type="Texture" id=1]
 [ext_resource path="res://oceanasset/tf_A5_atlantisA.png" type="Texture" id=2]
 [ext_resource path="res://oceanasset/char_bubbles.png" type="Texture" id=3]
 [ext_resource path="res://oceanasset/tf_B_atlantisB.png" type="Texture" id=4]
-
+[ext_resource path="res://tilemap5/p7.tscn" type="PackedScene" id=5]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
@@ -466,3 +466,6 @@ cell_size = Vector2( 32, 32 )
 show_collision = true
 format = 1
 tile_data = PoolIntArray( 131075, 1, 0, 131090, 1, 0, 196614, 2, 0, 196624, 2, 0, 196626, 1, 0, 262153, 1, 0, 262158, 1, 0, 262163, 1, 0, 262164, 1, 0, 262165, 1, 0, 262170, 1, 0, 327685, 2, 0, 327689, 1, 0, 327690, 1, 0, 327696, 1, 0, 327697, 1, 0, 393232, 1, 0, 458756, 1, 0, 458764, 1, 0, 458767, 3, 0, 458768, 1, 0, 458772, 1, 0, 458773, 0, 0, 458781, 2, 0, 524299, 0, 0, 524302, 1, 0, 524304, 1, 0, 589828, 0, 0, 589838, 1, 0, 589839, 1, 0, 589840, 1, 0, 589843, 1, 0, 589850, 2, 0, 655366, 1, 0, 655367, 1, 0, 655379, 1, 0, 655383, 0, 0, 720910, 0, 0, 786437, 0, 0, 786440, 0, 0, 786441, 0, 0, 786444, 2, 0, 786459, 0, 0, 786460, 0, 0, 851973, 0, 0, 851978, 0, 0, 851980, 2, 0, 851985, 2, 0, 851986, 2, 0, 851989, 2, 0, 851990, 2, 0, 851994, 2, 0, 917509, 0, 0, 917510, 0, 0, 917511, 0, 0, 917512, 0, 0, 917513, 0, 0, 917520, 0, 0, 917521, 0, 0, 917522, 0, 0, 917523, 0, 0, 917527, 2, 0 )
+
+[node name="Node2D" parent="." instance=ExtResource( 5 )]
+position = Vector2( 418, 304 )

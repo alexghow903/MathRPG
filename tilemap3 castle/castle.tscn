@@ -1,8 +1,8 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://castlesassets/14-TileSets/Terrain (32x32).png" type="Texture" id=1]
 [ext_resource path="res://castlesassets/14-TileSets/Decorations (32x32).png" type="Texture" id=2]
-
+[ext_resource path="res://tilemap3 castle/p5.tscn" type="PackedScene" id=3]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
@@ -741,3 +741,6 @@ cell_size = Vector2( 32, 32 )
 show_collision = true
 format = 1
 tile_data = PoolIntArray( 524293, 0, 0, 524294, 1, 0, 589829, 2, 0, 589830, 3, 0 )
+
+[node name="Node2D" parent="." instance=ExtResource( 3 )]
+position = Vector2( 458, 184 )
