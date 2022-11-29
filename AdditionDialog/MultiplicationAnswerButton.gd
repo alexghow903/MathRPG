@@ -11,6 +11,7 @@ func _ready():
 	var button = self
 	button.connect("pressed", self, "_button_pressed")
 	dialog = get_node('/root/BattleScene/ButtonControl/Multiply/MultiplicationDialog')
+	fighters = get_node('/root/BattleScene').get_children()[1].get_name()
 
 func get_damage_level():
 	return 10

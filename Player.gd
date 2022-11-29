@@ -46,12 +46,24 @@ func _process(delta):
 	elif velocity.y > 0:
 		$AnimatedSprite.animation = "down"
 	
+	var collider_maps = {
+		'TileMap2':"res://BattleScene/Level1.tscn",
+		'collisionb2':"res://BattleScene/Level2.tscn",
+		'cgrass':"res://BattleScene/Level3.tscn",
+		'castlecoll':"res://BattleScene/Level4.tscn",
+		'techcoll':"res://BattleScene/Level5.tscn",
+		'oceancoll':"res://BattleScene/Level6.tscn"
+		}
 	#breaking here maybe
 	for i in get_slide_count():
 		var collision = get_slide_collision(i)
 		# print("Collided with: ", collision.collider.name)
-		if collision.collider.name == "TileMap2":
-			get_tree().change_scene("res://BattleScene/Level6.tscn")
+		# if collision.collider.name == "TileMap2":
+		# 	get_tree().change_scene("res://BattleScene/Level6.tscn")
+		
+		if collision.collider.name in collider_maps:
+			get_tree().change_scene(collider_maps[collision.collider.name])
+			
 
 
 func _on_Player_body_entered(body):

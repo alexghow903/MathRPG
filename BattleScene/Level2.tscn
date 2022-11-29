@@ -7,14 +7,14 @@
 [ext_resource path="res://AdditionDialog/SubtractionDialog.tscn" type="PackedScene" id=6]
 [ext_resource path="res://HealthBars.tscn" type="PackedScene" id=7]
 
-[node name="Level2" type="Node2D"]
+[node name="BattleScene" type="Node2D"]
 
 [node name="HealthBars" parent="." instance=ExtResource( 7 )]
 margin_top = 408.0
 margin_right = 1190.0
 margin_bottom = 489.0
 
-[node name="Level1Fighters" parent="." instance=ExtResource( 1 )]
+[node name="Level2Fighters" parent="." instance=ExtResource( 1 )]
 position = Vector2( 104, 88 )
 
 [node name="ButtonControl" type="Control" parent="."]

@@ -23,7 +23,7 @@ margin_top = 408.0
 margin_right = 1190.0
 margin_bottom = 489.0
 
-[node name="Level4Fighters" parent="." instance=ExtResource( 3 )]
+[node name="Level5Fighters" parent="." instance=ExtResource( 3 )]
 position = Vector2( 104, 88 )
 
 [node name="ButtonControl" type="Control" parent="."]
