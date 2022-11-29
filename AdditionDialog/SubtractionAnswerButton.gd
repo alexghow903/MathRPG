@@ -14,7 +14,7 @@ func _ready():
 	fighters = get_node('/root/BattleScene').get_children()[1].get_name()
 
 func get_damage_level():
-	return 5
+	return 10
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
