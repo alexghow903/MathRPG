@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://BattleScene/Fight.gd" type="Script" id=1]
 [ext_resource path="res://BattleScene/Run.gd" type="Script" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://BattleScene/Multiply.gd" type="Script" id=10]
 [ext_resource path="res://AdditionDialog/DivisionDialog.tscn" type="PackedScene" id=11]
 [ext_resource path="res://AdditionDialog/MultiplicationDialog.tscn" type="PackedScene" id=12]
+[ext_resource path="res://Assets/MUSIC/1BITTopDownMusics - Track 03 (1BIT Eerie).wav" type="AudioStream" id=13]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.627451, 0.627451, 0.627451, 1 )
@@ -135,3 +136,7 @@ position = Vector2( 552, 320 )
 scale = Vector2( 17.1875, 17.5556 )
 z_index = -2
 texture = ExtResource( 4 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 13 )
+autoplay = true

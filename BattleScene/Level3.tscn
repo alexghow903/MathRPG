@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://BattleScene/Fight.gd" type="Script" id=1]
 [ext_resource path="res://BattleScene/Run.gd" type="Script" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://AdditionDialog/SubtractionDialog.tscn" type="PackedScene" id=6]
 [ext_resource path="res://HealthBars.tscn" type="PackedScene" id=7]
 [ext_resource path="res://bs_sprites/Level3Fighters.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Assets/MUSIC/1BITTopDownMusics - Track 02 (1BIT Dark Cave).wav" type="AudioStream" id=9]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.627451, 0.627451, 0.627451, 1 )
@@ -77,3 +78,7 @@ position = Vector2( 546, 316 )
 scale = Vector2( 17.1875, 17.5556 )
 z_index = -2
 texture = ExtResource( 4 )
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+autoplay = true

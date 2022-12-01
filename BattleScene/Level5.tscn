@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://BattleScene/Divide.gd" type="Script" id=1]
 [ext_resource path="res://AdditionDialog/DivisionDialog.tscn" type="PackedScene" id=2]
 [ext_resource path="res://bs_sprites/Level5Fighters.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Assets/school_hallway.png" type="Texture" id=4]
+[ext_resource path="res://Assets/MUSIC/1BITTopDownMusics - Track 02 (1BIT Dark Cave).wav" type="AudioStream" id=5]
 [ext_resource path="res://HealthBars.tscn" type="PackedScene" id=7]
 
 [sub_resource type="StyleBoxFlat" id=1]
@@ -54,3 +55,7 @@ position = Vector2( 546, 316 )
 scale = Vector2( 17.1875, 17.5556 )
 z_index = -2
 texture = ExtResource( 4 )
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+autoplay = true
