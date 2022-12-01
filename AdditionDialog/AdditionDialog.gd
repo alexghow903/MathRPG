@@ -30,13 +30,13 @@ func new_question(more_difficult):
 	var number_two = 1
 	if get_problem_type() == 'divide':
 		var possible_nums = []
-		for x in range(1,number_one):
+		for x in range(2,number_one):
 			if number_one % x == 0:
 				possible_nums.append(x)
 		if len(possible_nums) > 0:
-			number_two = possible_nums[rng.randi_range(1,len(possible_nums)-1)]
+			number_two = possible_nums[rng.randi_range(0,len(possible_nums)-1)]
 	else:
-		number_two = rng.randi_range(2,number_one-1) if get_problem_type() == 'subtract' else rng.randi_range(1, difficulty_range[difficulty])
+		number_two = rng.randi_range(1,number_one-1) if get_problem_type() == 'subtract' else rng.randi_range(1, difficulty_range[difficulty])
 	# if get_problem_type() == 'subtract':
 	# 	var number_two = rng.randi_range(1,number_one)
 	# else:
