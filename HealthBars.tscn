@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Assets/SPRITES/GUI/heart_background.png" type="Texture" id=1]
 [ext_resource path="res://Assets/SPRITES/GUI/item8BIT_heart.png" type="Texture" id=2]
 [ext_resource path="res://Assets/SPRITES/GUI/enemies_hearts.png" type="Texture" id=3]
+[ext_resource path="res://EnemyBar.gd" type="Script" id=4]
 
 [node name="HealthBars" type="MarginContainer"]
 margin_left = 10.0
@@ -32,6 +33,7 @@ margin_left = 518.0
 margin_right = 1008.0
 margin_bottom = 60.0
 step = 5.0
-value = 30.0
+value = 20.0
 texture_under = ExtResource( 1 )
 texture_progress = ExtResource( 3 )
+script = ExtResource( 4 )

@@ -6,7 +6,7 @@
 [node name="DivisionDialog" type="WindowDialog"]
 margin_right = 384.0
 margin_bottom = 128.0
-window_title = "Solve Addition"
+window_title = "Solve Division"
 script = ExtResource( 2 )
 
 [node name="MarginContainer" type="MarginContainer" parent="."]

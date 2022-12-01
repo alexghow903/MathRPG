@@ -37,10 +37,11 @@ func _button_pressed():
 	var submitted_value = answerEdit.text
 	if expected_value == int(submitted_value):
 		enemyBar.value -= get_damage_level()
+		dialog.new_question(true)
 	else:
 		playerBar.value -= get_damage_level()
+		dialog.new_question(false)
 	dialog.visible=false
-	dialog.new_question()
 	answerEdit.text = ""
 	var enemyHealth : float = enemyBar.value
 	var playerHealth : float = playerBar.value
