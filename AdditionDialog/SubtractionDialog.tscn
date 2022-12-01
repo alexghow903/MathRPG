@@ -5,6 +5,7 @@
 [node name="SubtractionDialog" type="WindowDialog"]
 margin_right = 416.0
 margin_bottom = 128.0
+window_title = "Solve Subtraction"
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 margin_left = 10.0
