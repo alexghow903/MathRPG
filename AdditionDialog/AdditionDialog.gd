@@ -4,7 +4,7 @@ extends WindowDialog
 var rng = RandomNumberGenerator.new()
 var expected_value = 0
 var difficulty = 0
-var difficulty_range = [4,10,15,25,50,100,300]
+var difficulty_range = [4,8,10,15,25,40,50,100,300]
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	new_question(true)
@@ -36,7 +36,7 @@ func new_question(more_difficult):
 		if len(possible_nums) > 0:
 			number_two = possible_nums[rng.randi_range(0,len(possible_nums)-1)]
 	else:
-		number_two = rng.randi_range(1,number_one-1) if get_problem_type() == 'subtract' else rng.randi_range(1, difficulty_range[difficulty])
+		number_two = rng.randi_range(2,number_one-1) if get_problem_type() == 'subtract' else rng.randi_range(1, difficulty_range[difficulty])
 	# if get_problem_type() == 'subtract':
 	# 	var number_two = rng.randi_range(1,number_one)
 	# else:
