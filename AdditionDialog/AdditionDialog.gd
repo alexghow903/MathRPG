@@ -4,7 +4,7 @@ extends WindowDialog
 var rng = RandomNumberGenerator.new()
 var expected_value = 0
 var difficulty = 0
-var difficulty_range = [4,8,10,15,25,40,50,100,300]
+var difficulty_range = [4,6,8,10,12,25,40,50,100,300]
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	new_question(true)
