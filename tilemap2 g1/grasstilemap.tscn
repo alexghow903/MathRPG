@@ -1,10 +1,11 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://grass1asset/TX Props.png" type="Texture" id=1]
 [ext_resource path="res://grass1asset/TX Struct.png" type="Texture" id=2]
 [ext_resource path="res://grass1asset/TX Tileset Grass.png" type="Texture" id=3]
 [ext_resource path="res://grass1asset/TX Tileset Wall.png" type="Texture" id=4]
 [ext_resource path="res://tilemap2 g1/p4.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Assets/MUSIC/1BITTopDownMusics - Track 01 (1BIT Adventure).wav" type="AudioStream" id=6]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
@@ -458,3 +459,7 @@ tile_data = PoolIntArray( 131081, 5, 0, 131082, 5, 0, 131083, 5, 0, 262150, 6, 0
 
 [node name="Node2D" parent="." instance=ExtResource( 5 )]
 position = Vector2( 455, 255 )
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+autoplay = true
