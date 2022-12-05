@@ -31,4 +31,5 @@ other assets used in the game
 * [grasspart1](https://anokolisa.itch.io/crawler-dungeon-prison)
 * [castleassets](https://pixelfrog-assets.itch.io/kings-and-pigs)
 * [oceanAssets](https://finalbossblues.itch.io/atlantis-tileset)
+* [bwAssets](https://canarigames.itch.io/canaripack-1bit-topdown)
 
