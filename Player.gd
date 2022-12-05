@@ -1,10 +1,7 @@
 extends KinematicBody2D
-signal hit
 export var speed = 400 # How fast the player will move (pixels/sec).
+
 var screen_size # Size of the game window.
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
 
 
 # Called when the node enters the scene tree for the first time.
@@ -30,9 +27,6 @@ func _process(delta):
 	else:
 		$AnimatedSprite.stop()
 		
-#	position += velocity * delta
-#	position.x = clamp(position.x, 0, screen_size.x)
-#	position.y = clamp(position.y, 0, screen_size.y)
 	velocity = move_and_slide(velocity)
 	
 	if velocity.x != 0:
@@ -57,20 +51,10 @@ func _process(delta):
 	#breaking here maybe
 	for i in get_slide_count():
 		var collision = get_slide_collision(i)
-		# print("Collided with: ", collision.collider.name)
-		# if collision.collider.name == "TileMap2":
-		# 	get_tree().change_scene("res://BattleScene/Level6.tscn")
 		
 		if collision.collider.name in collider_maps:
 			get_tree().change_scene(collider_maps[collision.collider.name])
 			
-
-
-func _on_Player_body_entered(body):
-	hide() # Player disappears after being hit.
-	emit_signal("hit")
-	# Must be deferred as we can't change physics properties on a physics callback.
-	$CollisionShape2D.set_deferred("disabled", true)
 
 func start(pos):
 	position = pos

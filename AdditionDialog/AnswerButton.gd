@@ -16,13 +16,16 @@ func _ready():
 
 
 func get_damage_level():
+	#Return amount of damage done by this math operation.
 	return 5
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
 func _button_pressed():
+	#Determine what level we're on
 	var levels = {'Level1Fighters':1,'Level2Fighters':2,'Level3Fighters':3,'Level4Fighters':4,'Level5Fighters':5,'Level6Fighters':6}
 	var level = levels[fighters]
+
 	var scenes = [
 		'res://test/Testing.tscn',
 		'res://tilemap1bw/bwtilemap.tscn',
@@ -30,6 +33,8 @@ func _button_pressed():
 		'res://tilemap3 castle/castle.tscn',
 		'res://tilemap4/grasspart2.tscn',
 		'res://tilemap5/ocean.tscn']
+
+	# Check for correctness and deliver appropriate damage
 	var enemyBar = get_node('/root/BattleScene/HealthBars/Health Bars/EnemyBar') 
 	var playerBar = get_node('/root/BattleScene/HealthBars/Health Bars/PlayerBar') 
 	var expected_value = dialog.get_expected_value()
@@ -43,10 +48,11 @@ func _button_pressed():
 		dialog.new_question(false)
 	dialog.visible=false
 	answerEdit.text = ""
+
+	# Check for win or loss
 	var enemyHealth : float = enemyBar.value
 	var playerHealth : float = playerBar.value
 	if enemyHealth <= 0.0:
-		print("you won!")
 		get_tree().change_scene(scenes[level])
 	elif playerHealth <= 0.0:
 		print("you lost!")
