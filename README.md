@@ -1,21 +1,23 @@
-# Overview
+# Math RPG
+
+## Overview
 
 Math RPG is a top-down style RPG game designed to allow students to practice basic math concepts in a fun and interactive way.
 
-# Development Environment
+## Development Environment
 
 * Godot 3.5.1.stable
 * GDScript
 
-# Useful Websites
+## Useful Websites
 
 * [Godot Documentation](https://docs.godotengine.org/en/stable/index.html)
 
-# Future Work
+## Future Work
 
 - [ ] Finish game
 
-# Contributors
+## Contributors
 
 * Spencer Damiano - Team Lead
 * Ben Davis - Project Manager
@@ -23,7 +25,7 @@ Math RPG is a top-down style RPG game designed to allow students to practice bas
 * Alex Howard - Quality Assurance and Configuration Manager
 * Cal Quinton - Documentation Manager
 
-# Credits
+## Credits
 
 The player and music assets used in the creation of this game were created by Johan Vinet of Canari Games. You can purchase them [here](https://canarigames.itch.io/canaripack-8bit-topdown).
 
