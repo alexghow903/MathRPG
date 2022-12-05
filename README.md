@@ -26,3 +26,9 @@ Math RPG is a top-down style RPG game designed to allow students to practice bas
 # Credits
 
 The assets used in the creation of this game were created by Johan Vinet of Canari Games. You can purchase them [here](https://canarigames.itch.io/canaripack-8bit-topdown).
+other assets used in the game
+*[grasspart2](https://cainos.itch.io/pixel-art-top-down-basic)
+*[grasspart1](https://anokolisa.itch.io/crawler-dungeon-prison)
+*[castleassets](https://pixelfrog-assets.itch.io/kings-and-pigs)
+*[oceanAssets](https://finalbossblues.itch.io/atlantis-tileset)
+*[bwassets](
