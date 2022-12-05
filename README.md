@@ -16,6 +16,11 @@ Math RPG is a top-down style RPG game designed to allow students to practice bas
 ## Future Work
 
 - [x] Finish game
+- [ ] Add intro scene
+- [ ] Add loss scene
+- [ ] Add victory scene
+- [ ] Add difficulty options
+- [ ] Add options menu
 
 ## Contributors
 
