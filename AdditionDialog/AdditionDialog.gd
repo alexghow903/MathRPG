@@ -36,17 +36,14 @@ func new_question(more_difficult):
 		if len(possible_nums) > 0:
 			number_two = possible_nums[rng.randi_range(0,len(possible_nums)-1)]
 	else:
-		number_two = rng.randi_range(2,number_one-1) if get_problem_type() == 'subtract' else rng.randi_range(1, difficulty_range[difficulty])
-	# if get_problem_type() == 'subtract':
-	# 	var number_two = rng.randi_range(1,number_one)
-	# else:
-	# 	var number_two = rng.randi_range(1, difficulty_range[difficulty])
+		number_two = rng.randi_range(1,number_one-1) if get_problem_type() == 'subtract' else rng.randi_range(1, difficulty_range[difficulty])
 	
 	# Create string with random numbers assigned
 	var format_equation = get_format_equation()
 	var equation = format_equation % [number_one, number_two]
 	expected_value = calculate(number_one,number_two)
 
+	#Increase or decrease difficulty based on if they got the question correct
 	if difficulty < len(difficulty_range) - 1 and more_difficult:
 		difficulty += 1
 	elif difficulty > 0 and not more_difficult:
@@ -54,7 +51,3 @@ func new_question(more_difficult):
 	
 	# Set label text as equation string
 	$MarginContainer/VBoxContainer/EquationLabel.set_text(equation)
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
