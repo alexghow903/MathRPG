@@ -6,5 +6,5 @@ func next_scene():
 
 
 func _on_Button_pressed():
-	get_tree().change_scene("res://tilemap1bw/bwtilemap.tscn")
+	get_tree().change_scene("res://test/Testing.tscn")
 	pass # Replace with function body.
