@@ -3,7 +3,7 @@
 ## Downloads
 
 * [Windows Executable](Mathrpg.exe)
-  * Download the entire folder and run the .exe file inside of it OR store the .exe file and the .pck file in the same folder.
+  * Download the entire folder and run the .exe file inside of it OR store the .exe file and the .pck file in the same folder and run the .exe file.
 
 ## Overview
 
