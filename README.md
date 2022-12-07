@@ -26,7 +26,6 @@ Math RPG is a top-down style RPG game designed to allow students to practice bas
 - [x] Add victory scene
 - [ ] Add difficulty options
 - [ ] Add options menu
-- [ ] Clean up files
 
 ## Contributors
 
@@ -46,4 +45,5 @@ Some other assets used in the level design of the game can be found here:
 * [castleassets](https://pixelfrog-assets.itch.io/kings-and-pigs)
 * [oceanAssets](https://finalbossblues.itch.io/atlantis-tileset)
 * [bwAssets](https://canarigames.itch.io/canaripack-1bit-topdown)
+* [Background Pixel Art](https://www.deviantart.com/xcelestialrose/)
 
