@@ -2,7 +2,7 @@
 
 ## Downloads
 
-* [Windows Executable]()
+* [Windows Executable](Mathrpg.exe)
 
 ## Overview
 
