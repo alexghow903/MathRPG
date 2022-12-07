@@ -32,7 +32,8 @@ func _button_pressed():
 		'res://tilemap2 g1/grasstilemap.tscn',
 		'res://tilemap3 castle/castle.tscn',
 		'res://tilemap4/grasspart2.tscn',
-		'res://tilemap5/ocean.tscn']
+		'res://tilemap5/ocean.tscn',
+		'res://ui/VictoryMenu.tscn']
 
 	# Check for correctness and deliver appropriate damage
 	var enemyBar = get_node('/root/BattleScene/HealthBars/Health Bars/EnemyBar') 
