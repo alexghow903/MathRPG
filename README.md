@@ -2,7 +2,7 @@
 
 ## Downloads
 
-* [Windows]()
+* [Windows Executable]()
 
 ## Overview
 
