@@ -3,7 +3,7 @@
 ## Downloads
 
 * [Windows Executable](gamewindowsexport)
-  * Download the entire folder and run the .exe file inside of it OR store the .exe file and the .pck file in the same folder and run the .exe file.
+  * Download Mathrpg.exe and pck.zip, then extract pck.zip and place Mathrpg.exe inside the resulting folder named "pck" (this folder can be safely renamed). Running Mathrpg.exe from inside this folder will run the game.
 
 ## Overview
 
